@@ -1,0 +1,5 @@
+/target
+input/*
+!input/*.test
+
+.idea
