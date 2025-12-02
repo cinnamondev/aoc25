@@ -25,12 +25,10 @@ pub fn run() {
             new = if new == 100 {
                 0
             } else if new > 100 {
-                println!("beep");
                 full_rotations += 1;
                 0 + ((100-acc).abs_diff(v) as i32)
             } else if new < 0 {
                 if acc != 0 {
-                    println!("boop");
                     full_rotations += 1;
                 }
                 100 - (acc.abs_diff(-1 * v) as i32)
@@ -39,7 +37,6 @@ pub fn run() {
             };
             if new == 0 { counter += 1; }
             counter_special += full_rotations;
-            println!("{0} {1} {2} {3} {4}", acc, v, orig, new, full_rotations);
             new
         });
 
