@@ -3,21 +3,27 @@
 #![feature(string_into_chars)]
 #![feature(new_range_api)]
 
+use std::path::Component::Prefix;
+
 mod day1;
 mod day2;
 mod day3;
 mod day4;
+mod day5;
 
 fn main() {
-    //println!("DAY1");
-    //day1::run();
+    println!("DAY 1");
+    day1::run();
 
-    //println!("DAY2");
-    //day2::run();
+    println!("\nDAY 2");
+    day2::run();
 
-    //println!("DAY3");
-    //day3::run();
+    println!("\nDAY 3");
+    day3::run();
 
-    println!("DAY4");
+    println!("\nDAY 4");
     day4::run();
+
+    println!("\nDAY 5");
+    day5::run();
 }

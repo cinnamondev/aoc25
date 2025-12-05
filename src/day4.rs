@@ -42,9 +42,9 @@ pub fn run() {
                 }
                 // visit neighbours
             }
-            print_visualizer(&visualizer);
-            sleep(Duration::from_millis(1));
-            print!("\x1Bc");
+            //print_visualizer(&visualizer);
+            //sleep(Duration::from_millis(1));
+            //print!("\x1Bc");
             visualizer = visualizer.iter().map(|l| l.iter().map(|c| {
                 if *c == '#' {
                     '.'
@@ -54,7 +54,7 @@ pub fn run() {
         part2 += removed_neighbours;
     }
     
-    print_visualizer(&visualizer);
+    //print_visualizer(&visualizer);
     println!("Part 1 ANS: {}", part1);
     println!("Part 2 ANS: {}", part2);
 
