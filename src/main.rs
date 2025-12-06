@@ -10,20 +10,20 @@ mod day2;
 mod day3;
 mod day4;
 mod day5;
+mod day6;
 
 fn main() {
-    println!("DAY 1");
-    day1::run();
+    //println!("DAY 1");
+    //day1::run();
+    //println!("\nDAY 2");
+    //day2::run();
+    //println!("\nDAY 3");
+    //day3::run();
+    //println!("\nDAY 4");
+    //day4::run();
+    //println!("\nDAY 5");
+    //day5::run();
 
-    println!("\nDAY 2");
-    day2::run();
-
-    println!("\nDAY 3");
-    day3::run();
-
-    println!("\nDAY 4");
-    day4::run();
-
-    println!("\nDAY 5");
-    day5::run();
+    println!("\nDAY 6");
+    day6::run();
 }

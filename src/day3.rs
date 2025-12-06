@@ -18,7 +18,7 @@ pub fn run() {
         .fold(0u64,|total, joltage| total + joltage);
     println!("Part 2: {}", part2);
 
-}
+} 
 fn find_largest_possible(bank: &Vec<u8>, digit_count: usize) -> u64 {
     let mut string = String::with_capacity(bank.len());
 
